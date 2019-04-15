@@ -1,10 +1,11 @@
 FROM python:alpine
 
-ARG CLI_VERSION=1.16.138
+ARG AWS_VERSION=1.16.140
+ARG EB_VERSION=3.15.0
 
 RUN apk -uv add --no-cache groff jq less && \
-    pip install --no-cache-dir awscli==$CLI_VERSION
+    pip install --no-cache-dir awscli==$AWS_VERSION awsebcli==$EB_VERSION
 
-WORKDIR /aws
+WORKDIR /app
 
-CMD sh
+CMD [sh]
