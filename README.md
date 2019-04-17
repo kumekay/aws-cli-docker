@@ -1,8 +1,8 @@
 # AWS CLI Docker Image
 
-![Docker Stars](https://img.shields.io/docker/stars/kumekay/aws-cli.svg)
-![Docker Pulls](https://img.shields.io/docker/pulls/kumekay/aws-cli.svg)
-![Docker Automated Builds](http://img.shields.io/docker/automated/kumekay/aws-cli.svg)
+![Docker Stars](https://img.shields.io/docker/stars/kumekay/docker-aws-cli.svg)
+![Docker Pulls](https://img.shields.io/docker/pulls/kumekay/docker-aws-cli.svg)
+![Docker Automated Builds](http://img.shields.io/docker/automated/kumekay/docker-aws-cli.svg)
 
 This image provides the AWS CLI, Elastic Beanstalk CLI a few other tools, including jq.
 
